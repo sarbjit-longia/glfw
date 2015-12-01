@@ -409,6 +409,8 @@ int main(int argc, char** argv)
 
     glfwSetErrorCallback(error_callback);
 
+    glfwInitHint(GLFW_COCOA_CREATE_MENUBAR, GLFW_FALSE);
+
     if (!glfwInit())
         exit(EXIT_FAILURE);
 
