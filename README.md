@@ -119,6 +119,7 @@ information on what to include when reporting a bug.
           OpenGL and OpenGL ES header macros
 - Bugfix: `glfwGetInstanceProcAddress` returned `NULL` for
           `vkGetInstanceProcAddr` when `_GLFW_VULKAN_STATIC` was enabled
+- [Win32] Moved to `WM_INPUT` for disabled cursor mode motion input (#125)
 - [Win32] Bugfix: Undecorated windows could not be iconified by the user (#861)
 - [Win32] Bugfix: Deadzone logic could underflow with some controllers (#910)
 - [X11] Replaced `_GLFW_HAS_XF86VM` compile-time option with dynamic loading
